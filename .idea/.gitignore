@@ -1,0 +1,30 @@
+# IntelliJ IDEA project files
+/.idea/
+/.idea/*
+
+# Ignore build output directories
+/out/
+/target/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore Maven and Gradle directories
+/.mvn/
+/.gradle/
+
+# Ignore IntelliJ IDEA specific files
+/shelf/
+/workspace.xml
