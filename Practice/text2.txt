@@ -1,0 +1,1 @@
+help me write a java program that will take input from this file and output a list of top five readers identified by their ID along with how many points they scored. In this file, the id is before the first comma and number of points is after the last comma in every line. 50 points for reading the book and 1 point for each page
