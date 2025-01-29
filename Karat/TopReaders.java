@@ -14,7 +14,7 @@ public class TopReaders {
                 String[] parts = line.split(",");
                 String id = parts[0];
                 int points = Integer.parseInt(parts[parts.length - 1]);
-                readerPoints.put(id, readerPoints.getOrDefault(id, 0) + points);
+                readerPoints.put(id, readerPoints.getOrDefault(id, 0) + points + 50);
             }
         } catch (IOException e) {
             e.printStackTrace();
